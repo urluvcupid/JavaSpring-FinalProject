@@ -1,5 +1,5 @@
 # JavaSpring-FinalProject
-# Necromancer Workforce Manager
+## Necromancer Workforce Manager
 
 This project is a small backend application made with Java and Spring Boot. The idea of the project is a fantasy HR system for undead employees working in a necromancer company.
 
@@ -18,7 +18,7 @@ Technologies used:
 
 Authentication in the project is session-based and uses Spring Security with JSESSIONID cookies.
 
-## Important Note
+# Important Note
 
 The real database password is not uploaded to github.
 
