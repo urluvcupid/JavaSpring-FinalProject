@@ -1,0 +1,20 @@
+name: README File Check
+
+on: [push]
+
+jobs:
+  check-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Check if README.md exists
+        run: |
+          if [ -f README.md ]; then
+            echo "SUCCESS: README.md file exists!"
+          else
+            echo "ERROR: README.md file is missing!"
+            exit 1
+          fi
